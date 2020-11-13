@@ -1,6 +1,6 @@
 # Visage.FR Clients
 
-![Visage.FR Logo](https://raw.githubusercontent.com/sushrutmair/visagefrclients/main/logo_small.png)
+![Visage.FR Logo]((https://raw.githubusercontent.com/sushrutmair/visagefrservice/main/logo_small.png))
 
 This repo hosts clients of the Visage.FR service:
 * clients/java/__javaclient__ - A __JAVA__ client. This is the most full featured client (compared to the others) using which you can explore the service as well as build automation tests. Needs JDK/JRE 11 installed (openjdk 11.0.9 2020-10-20).
