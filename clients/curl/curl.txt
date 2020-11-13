@@ -1,0 +1,26 @@
+
+A few examples showing how to interact with the Visage.FR service using the cURL command line.
+cURL is available on both Linux and Windows. You may need to install it on your OS distribution.
+
+Example 1: A match is found.
+----------------------------
+
+The curl command line is:
+
+curl -X POST "https://vfr050-yfc6eivsqq-ue.a.run.app/visagefr/v1.0/fr" -H  "accept: application/json" -H "Content-Type: multipart/form-data" -F "files=@../testimages/bp1.jpg;type=image/jpeg" -F "files=@../testimages/bp2.jpg;type=image/jpeg"
+
+You should get a response from the Visage.FR server and it should be similar to this:
+
+{"matchesfound":1,"matchlocations":[{"locintgt":[260,735,528,468],"locinsrc":[43,390,266,167],"srcimg":"bp1.jpg","tgtimg":"bp2.jpg"}]}
+
+
+Example 2: No match is found.
+----------------------------
+
+The curl command line is:
+
+curl -X POST "https://vfr050-yfc6eivsqq-ue.a.run.app/visagefr/v1.0/fr" -H  "accept: application/json" -H "Content-Type: multipart/form-data" -F "files=@../testimages/bp1.jpg;type=image/jpeg" -F "files=@../testimages/ag1.jpg;type=image/jpeg"
+
+The service response should be something like this:
+
+{"matchesfound":"0"}

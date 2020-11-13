@@ -1,0 +1,74 @@
+
+This is the response from the server seen in the JAVA client when encountering a capacity exceeded condition:
+-------------------------------------------------------------------------------------------------------------
+
+<...>
+Thread::Thread-1069: Response HTTP Code and Body, for: /mnt/c/Sushrut/Other projects/api_as_product/facerecog/testdata/mixed/jc-cw1.jpg and: /mnt/c/Sushrut/Other projects/api_as_product/facerecog/testdata/mixed/cw1.jpeg
+    Thread::Thread-1069: HTTP Response Code: 200
+    Thread::Thread-1069: HTTP Response Body: 
+{"matchesfound":1,"matchlocations":[{"locintgt":[246,707,708,245],"locinsrc":[116,545,270,390],"srcimg":"jc-cw1.jpg","tgtimg":"cw1.jpeg"}]}
+Thread::Thread-1069: Exiting thread.
+
+Thread::Thread-1070: Response HTTP Code and Body, for: /mnt/c/Sushrut/Other projects/api_as_product/facerecog/testdata/mixed/jc-cw1.jpg and: /mnt/c/Sushrut/Other projects/api_as_product/facerecog/testdata/mixed/cw1.jpeg
+    Thread::Thread-1070: HTTP Response Code: 200
+    Thread::Thread-1070: HTTP Response Body: 
+{"matchesfound":1,"matchlocations":[{"locintgt":[246,707,708,245],"locinsrc":[116,545,270,390],"srcimg":"jc-cw1.jpg","tgtimg":"cw1.jpeg"}]}
+Thread::Thread-1070: Exiting thread.
+
+Thread::Thread-1071: Response HTTP Code and Body, for: /mnt/c/Sushrut/Other projects/api_as_product/facerecog/testdata/mixed/jc-cw1.jpg and: /mnt/c/Sushrut/Other projects/api_as_product/facerecog/testdata/mixed/cw1.jpeg
+    Thread::Thread-1071: HTTP Response Code: 200
+    Thread::Thread-1071: HTTP Response Body: 
+{"matchesfound":1,"matchlocations":[{"locintgt":[246,707,708,245],"locinsrc":[116,545,270,390],"srcimg":"jc-cw1.jpg","tgtimg":"cw1.jpeg"}]}
+Thread::Thread-1071: Exiting thread.
+
+Thread::Thread-1072: Error - Exception during uploading files.
+500 Internal Server Error: [{"error":-1039,"errstring":"Service capacity consumed. Please try next calendar day."}][Ljava.lang.StackTraceElement;@72e38c34
+Thread::Thread-1072: Exiting thread.
+
+Thread::Thread-1073: Error - Exception during uploading files.
+500 Internal Server Error: [{"error":-1039,"errstring":"Service capacity consumed. Please try next calendar day."}][Ljava.lang.StackTraceElement;@4570d401
+Thread::Thread-1073: Exiting thread.
+
+Thread::Thread-1074: Error - Exception during uploading files.
+500 Internal Server Error: [{"error":-1039,"errstring":"Service capacity consumed. Please try next calendar day."}][Ljava.lang.StackTraceElement;@245e225f
+Thread::Thread-1074: Exiting thread.
+
+This is the output of a separate capacity tracking program after the above:
+---------------------------------------------------------------------------
+
+user@MAIRFAMILY-A15TUF:~/gcloudsdk$ python3 capmon.py
+Capacity Status as on:  2020-11-04 13:23:35.282689  local time is:
+Curr Request Count:  2562
+Total Req Cnt for past 24 hrs is:  2562
+{'2': 'Capacity exceeded. Throttling requests currently!'}
+
+user@MAIRFAMILY-A15TUF:~/gcloudsdk$ python3 capmon.py
+Capacity Status as on:  2020-11-04 13:38:14.909849  local time is:
+Curr Request Count:  2562
+Total Req Cnt for past 24 hrs is:  2562
+{'2': 'Capacity exceeded. Throttling requests currently!'}
+
+user@MAIRFAMILY-A15TUF:~/gcloudsdk$ python3 capmon.py
+Capacity Status as on:  2020-11-04 14:12:47.757615  local time is:
+Curr Request Count:  2562
+Total Req Cnt for past 24 hrs is:  2562
+{'2': 'Capacity exceeded. Throttling requests currently!'}
+
+user@MAIRFAMILY-A15TUF:~/gcloudsdk$ python3 capmon.py
+Capacity Status as on:  2020-11-04 15:10:00.813546  local time is:
+Curr Request Count:  2564
+Total Req Cnt for past 24 hrs is:  2564
+{'2': 'Capacity exceeded. Throttling requests currently!'}
+
+user@MAIRFAMILY-A15TUF:~/gcloudsdk$ python3 capmon.py
+Capacity Status as on:  2020-11-04 15:16:20.434265  local time is:
+Curr Request Count:  2564
+Total Req Cnt for past 24 hrs is:  2564
+{'2': 'Capacity exceeded. Throttling requests currently!'}
+
+user@MAIRFAMILY-A15TUF:~/gcloudsdk$ python3 capmon.py
+Capacity Status as on:  2020-11-04 16:05:51.222553  local time is:
+Curr Request Count:  1368
+Total Req Cnt for past 24 hrs is:  1368
+{'1': 'Capacity available.'}
+user@MAIRFAMILY-A15TUF:~/gcloudsdk$
