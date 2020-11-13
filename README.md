@@ -2,7 +2,7 @@
 
 # The Visage.FR Face Recognition Service
 
-## Privacy First, Fast and Easy Face Recognition for any application! And it's FREE!
+## Privacy First, Fast and Easy Face Recognition for any application! And it's **FREE**!
 
 ---
 
@@ -24,7 +24,7 @@ Yes, of course. Visage.FR ships with a simple integrated web application that no
 
 ### Nice! I like it and want to try integrating Visage.FR with my application! Can you help?
 
-Thought you would never ask. We have a bunch of working client applications available across multiple programming languages. In addition, we also have provided cURL command lines to call it. Just head over to the [clients] folder and you are good to go! We currently have a Java, C# and Python client that work seamlessly with the Visage.FR service!
+Thought you would never ask. We have a bunch of working client applications available across multiple programming languages. In addition, we also have provided cURL command lines to call it. Just head over to the [clients](https://github.com/sushrutmair/visagefrservice/tree/main/clients) folder and you are good to go! We currently have a Java, C# and Python client that work seamlessly with the Visage.FR service!
 
 ### Can I call Visage.FR from any application?
 
