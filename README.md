@@ -52,6 +52,10 @@ Yes, of course. Visage.FR ships with a simple integrated web application that no
 
 Of course. Just drop us a line at *visagefr* at *gmail* dot *com*. To avoid getting signed up by bots, the email id is somewhat obfuscated. Should be easy to reconstruct it. Or you can also hit up the creator of Visage.FR at LinkedIn [here](https://in.linkedin.com/in/sushrut-mair-3769b62). Please do include brief details about yourself and a brief note on how you want to use Visage.FR.
 
+### I think I may have found a bug in Visage.FR. What next?
+
+Let us know! File a bug by using the 'Issues' tab above.
+
 ## Understanding Visage.FR results and behavior
 
 ### What inputs does Visage.FR ask for?
