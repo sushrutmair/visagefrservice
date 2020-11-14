@@ -5,11 +5,11 @@
 
 
 
-## Privacy First. Fast and Easy Face Recognition for any application! 
+### Privacy First. Fast and Easy Face Recognition for any application! 
 
-## No sign-up / registration needed!
+### No sign-up / registration needed!
 
-## And it's !! FREE !!
+### And it's !! FREE !!
 
 ---
 
@@ -19,11 +19,22 @@ Visage.FR is a publically available cloud service that allows you to build face 
 
 ### Sounds interesting. Tell me more about how you guarantee privacy?
 
-Visage.FR has a single REST API that is to be called when you want to perform face recognition in your application. All that it needs is two images, one that has the face of interest (one that you want to recognize) and the other image that might have your face of interest. Other face recognition services typically store the faces and derived data on their servers (for sometime if not permanently). Visage.FR does nothing of this sort. As soon as you receive the REST API's response, you can be assured that all your data in the service has been destroyed.
+Visage.FR has a single REST API that is to be called when you want to perform face recognition in your application. All that it needs is two images, one that has the face of interest (one that you want to recognize) and the other image that might have your face of interest. Other face recognition services typically store the faces and derived data on their servers (for sometime if not permanently). Visage.FR does nothing of this sort. As soon as you receive the REST API's response, you can be assured that all your data in the service has been destroyed. Visage.FR has been designed from the ground up with privacy as one of the primary driving goals.
 
 ### Cool. Does this affect the quality and responsiveness of Visage.FR?
 
 No. Visage.FR is very fast and strives to beat, or be at par with other free as well as commercial face recognition solutions in the market.
+
+### What is face recognition? Why should I be excited about it?
+
+Face recognition is the ability to match a human face to various unknown faces. It opens up a plethora of use cases:
+ - Have 1000s of personal photos? Only want to retain photos having certain people and delete the rest? Use Visage.FR!
+ - Build a system that can unlock your front door by just looking at your face!
+ - Find friends or family in long forgotten trip / meet  photos!
+ - Build an entry system that only allows certain people to enter a specific area.
+ - Build an ID verification system that allows you to confirm someone's identity.
+ - ... and many more! Use your imagination!
+
 
 ### This all sounds too good to be true. What's the catch?
 
