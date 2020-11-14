@@ -5,11 +5,11 @@
 
 
 
-## Privacy First, Fast and Easy Face Recognition for any application! And it's **FREE**!
+## Privacy First. Fast and Easy Face Recognition for any application! No sign-up / registration needed! And it's !! FREE !!
 
 ---
 
-### About Visage.FR
+## About Visage.FR
 
 Visage.FR is a publically available cloud service that allows you to build face recognition into any type of application. It guarantees privacy of your data by a) not requesting uneeded information and b) maintaining ephemeral environments for each request and destroying them as soon as the request has been processed.
 
@@ -21,11 +21,13 @@ Visage.FR has a single REST API that is to be called when you want to perform fa
 
 No. Visage.FR is very fast and strives to beat, or be at par with other free as well as commercial face recognition solutions in the market.
 
-### I want to take Visage.FR for a spin but I am not a programmer (or I do not want to spend time in writing code for calling it). Can you help?
+### I want to take Visage.FR for a spin but I am not a programmer. Can you help?
 
 Yes, of course. Visage.FR ships with a simple integrated web application that non programmers (or programmers wanting to sample it) can use. [Here](https://github.com/sushrutmair/visagefrservice/blob/main/webapphowto.md) is an easy pictorial guide that shows you how to use that web application. In fact, we usually suggest first timers to use the web app irrespective of whether they are programmers or not.
 
-### Nice! I like it and want to try integrating Visage.FR with my application! Can you help?
+## For developers wanting to integrate Visage.FR into their own applications
+
+### I like it and want to try integrating Visage.FR with my application! Can you help?
 
 Thought you would never ask. We have a bunch of working client applications available across multiple programming languages. In addition, we also have provided cURL command lines to call it. Just head over to the [clients](https://github.com/sushrutmair/visagefrservice/tree/main/clients) folder and you are good to go! We currently have a Java, C# and Python client that work seamlessly with the Visage.FR service!
 
