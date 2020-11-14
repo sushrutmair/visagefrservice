@@ -83,7 +83,7 @@ This [page](https://github.com/sushrutmair/visagefrservice/blob/main/results_int
 Visage.FR strives to be as reasonable as possible in restricting inputs. Here they are:
 * You must provide exactly 2 images as input. No more, no less.
 * Supported image types are: JPEG/JPG, PNG and BMP. Other types should work but have not been tested.
-* Each image cannot be more than 3 MB in size. In other words, as long as both images are < 3 MB in size, Visage.FR will process them.
+* Each image cannot be more than 3 MB in size. In other words, Visage.FR allows each image to be upto 3 MB in size.
 * Visage.FR works best when the faces in the images are frontal, clear and not too low-res. If the image is very large, it needs proportionally larger face sizes in it.
 
 
