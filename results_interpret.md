@@ -6,6 +6,8 @@ Visage.FR's results would have the following HTTP Response code:
 
 A few screenshots have been also shown to give a better idea of the structure of the Response body.
 
+---
+
 ### Response body under various conditions for HTTP Response 200:
 
 1. One match is found:
@@ -25,6 +27,7 @@ A few screenshots have been also shown to give a better idea of the structure of
 ![Zero faces](https://github.com/sushrutmair/visagefrservice/blob/main/errscreens/200_zerofaces.jpg)
 
 
+---
 
 ### Response body under various conditions for HTTP Response 400, 500:
 
