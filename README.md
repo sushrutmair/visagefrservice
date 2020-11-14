@@ -5,7 +5,11 @@
 
 
 
-## Privacy First. Fast and Easy Face Recognition for any application! No sign-up / registration needed! And it's !! FREE !!
+## Privacy First. Fast and Easy Face Recognition for any application! 
+
+## No sign-up / registration needed!
+
+## And it's !! FREE !!
 
 ---
 
@@ -20,6 +24,10 @@ Visage.FR has a single REST API that is to be called when you want to perform fa
 ### Cool. Does this affect the quality and responsiveness of Visage.FR?
 
 No. Visage.FR is very fast and strives to beat, or be at par with other free as well as commercial face recognition solutions in the market.
+
+### This all sounds too good to be true. What's the catch?
+
+There's a catch. Yep. And here it is: Since we give away the service for free, we need to ensure that our cloud operational costs are kept as low as possible. How does this affect you? In two ways: 1) At times, you might see a slower response in the first request you make (~7-8 seconds, usually). This is because the service is kept dormant until it starts seeing requests and the first request bears the brunt of that cold start. Subsequent requests are blazingly fast. 2) The service scalability is artificially throttled (somewhat). You might get a HTTP response that says something like, "Service capacity consumed for now. Please try in a few hours." The service is smart enough to auto-scale its capacity (driven by a goal to lower costs) and after sometime your requests are again served.
 
 ### I want to take Visage.FR for a spin but I am not a programmer. Can you help?
 
