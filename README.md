@@ -19,7 +19,7 @@ Visage.FR is a publically available cloud service that allows you to build face 
 
 ### Sounds interesting. Tell me more about how you guarantee privacy?
 
-Visage.FR has a single REST API that is to be called when you want to perform face recognition in your application. All that it needs is two images, one that has the face of interest (one that you want to recognize) and the other image that might have your face of interest. Other face recognition services typically store the faces and derived data on their servers (for sometime if not permanently). Visage.FR does nothing of this sort. As soon as you receive the REST API's response, you can be assured that all your data in the service has been destroyed. Visage.FR has been designed from the ground up with privacy as one of the primary driving goals.
+By way of input all Visage.FR needs are two images. Other face recognition services typically store the images and derived data on their servers (at least for sometime if not permanently). Visage.FR does nothing of this sort. As soon as you receive the service's response, you can be assured that all your data in the service has been destroyed. Visage.FR has been designed from the ground up with privacy as one of the primary driving goals.
 
 ### Cool. Does this affect the quality and responsiveness of Visage.FR?
 
@@ -33,16 +33,18 @@ Face recognition is the ability to match a human face to various unknown faces. 
  - Find friends or family in long forgotten trip / meet  photos!
  - Build an entry system that only allows certain people to enter a specific area.
  - Build an ID verification system that allows you to confirm someone's identity.
+ - Recognize faces in a video (livestream or from a file)!
  - ... and many more! Use your imagination!
 
 
 ### This all sounds too good to be true. What's the catch?
 
-There's a catch. Yep. And here it is: Since we give away the service for free, we need to ensure that our cloud operational costs are kept as low as possible. How does this affect you? In two ways: 1) At times, you might see a slower response in the first request you make (~7-8 seconds, usually). This is because the service is kept dormant until it starts seeing requests and the first request bears the brunt of that cold start. Subsequent requests are blazingly fast. 2) The service scalability is artificially throttled (somewhat). You might get a HTTP response that says something like, "Service capacity consumed for now. Please try in a few hours." The service is smart enough to auto-scale its capacity (driven by a goal to lower costs) and after sometime your requests are again served.
+There's a catch. Yep. And here it is: Since we give away the service for free, we need to ensure that our cloud operational costs are kept as low as possible. How does this affect you? In two ways: 1) At times, you might see a slower response in the first request you make (~8-10 sec). This is because the service is kept dormant until it starts seeing requests and the first request bears the brunt of that cold start. Subsequent requests are blazingly fast. 2) The service scalability is artificially throttled (somewhat). You might get a HTTP response that says something like, "Service capacity consumed for now. Please try in a few hours." The service is smart enough to auto-scale its capacity (driven by a goal to lower costs) and after sometime your requests are again served.
 
 ### I want to take Visage.FR for a spin but I am not a programmer. Can you help?
 
 Yes, of course. Visage.FR ships with a simple integrated web application that non programmers (or programmers wanting to sample it) can use. [Here](https://github.com/sushrutmair/visagefrservice/blob/main/webapphowto.md) is an easy pictorial guide that shows you how to use that web application. In fact, we usually suggest first timers to use the web app irrespective of whether they are programmers or not.
+
 
 ## For developers wanting to integrate Visage.FR into their own applications
 
@@ -62,3 +64,6 @@ Yes, of course. While currently we have not shared a mobile client, the currentl
 
 Yes, as long as the system supports calling a HTTPS based cloud service (which most systems do nowadays). You can use either the Java or Python clients to test your embedded system with it (or write your own - just follow the pattern in the existing clients). (At some point in the future, we plan to showcase Visage.FR integration with a RPi based or similar board)
 
+### Can Visage.FR recognize faces in a video?
+
+Yes. For this to work, you would need to grab the frames of interest from the video (it can also be a live streaming video). Frames of interest are frames that containe faces you want to recognize. Send those frames (as images) to Visage.FR and you are done!
