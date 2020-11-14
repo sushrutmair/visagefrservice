@@ -70,7 +70,7 @@ If you are a programmer, look at the section below titled, 'For developers wanti
 
 ### What are Visage.FR's outputs?
 
-Visage.FR returns a result for each request you send to it. The result indicated: a) whether or not a match was found, and, b) the locations in both images for the matches. The locations are just co-ordinates in the images where the matching faces have been found. You can use the locations to crop or build a bounding box in the images to visually show matches.
+Visage.FR returns a result for each request you send to it. The result indicates: a) whether or not a match was found, and, b) if a match (or multiple matchs) have been found, the locations in both images for all the matches. The locations are just co-ordinates in the images where the matching faces have been found. You can use the locations to crop or build a bounding box in the images to visually show matches.
 
 ### Does Visage.FR impose any limitations on the inputs?
 
