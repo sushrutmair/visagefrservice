@@ -18,17 +18,23 @@ A few screenshots have been also shown to give a better idea of the structure of
 
 3. No match is found:
 
+![No match](https://github.com/sushrutmair/visagefrservice/blob/main/errscreens/200_nomatch.jpg)
+
 4. No match found because zero faces were found in at least one of the images:
+
+![Zero faces](https://github.com/sushrutmair/visagefrservice/blob/main/errscreens/200_zerofaces.jpg)
 
 
 
 ### Response body under various conditions for HTTP Response 400, 500:
 
-1. Number of uploaded images was not 2 (HTTP response is 400)
+#### 400
+
+1. Number of uploaded images was not 2 
 
 
 
-2. Size of one or more images is > 3 MB (HTTP response is 400)
+2. Size of one or more images is > 3 MB 
 
 
 | error | errstring |
@@ -36,26 +42,28 @@ A few screenshots have been also shown to give a better idea of the structure of
 | "-1027" | "Max allowed file size exceeded. Allowed size upto: 3 MB"|
 
 
-3. There was a resource allocation error in the server (HTTP response is 500)
+#### 500
+
+3. There was a resource allocation error in the server
 
 | error | errstring |
 |------ | ----------|
 | "-1025" | "Resource allocation error. Please try after some time."|
 
 
-4. Unsupported image type was uploaded (HTTP response is 500)
+4. Unsupported image type was uploaded
 
 | error | errstring |
 |------ | ----------|
 | "-1028" | "Error in processing uploaded images. Please check the images."|
 
-5. The Service is out of capacity. This is a temporary condition. (HTTP response is 500)
+5. The Service is out of capacity. This is a temporary condition.
 
 | error | errstring |
 |------ | ----------|
 | "-1039" | "Service capacity consumed for now. Please try in a few hours."|
 
-6. There was an internal Visage.FR server error (HTTP response is 500)
+6. There was an internal Visage.FR server error
 
 | error | errstring | possible reason |
 |------ | ----------| --------------- |
