@@ -32,7 +32,9 @@ A few screenshots have been also shown to give a better idea of the structure of
 
 1. Number of uploaded images was not 2 
 
+![Not2_1](https://github.com/sushrutmair/visagefrservice/blob/main/errscreens/400_not_2.jpg)
 
+![More_2](https://github.com/sushrutmair/visagefrservice/blob/main/errscreens/400_3_or_more.jpg)
 
 2. Size of one or more images is > 3 MB 
 
