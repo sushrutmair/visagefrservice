@@ -1,6 +1,9 @@
+# The Visage.FR Face Recognition Service
+
+
 ![Visage.FR Logo](https://raw.githubusercontent.com/sushrutmair/visagefrservice/main/logo_small.png)
 
-# The Visage.FR Face Recognition Service
+
 
 ## Privacy First, Fast and Easy Face Recognition for any application! And it's **FREE**!
 
