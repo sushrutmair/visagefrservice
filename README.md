@@ -54,9 +54,28 @@ Of course. Just drop us a line at *visagefr* at *gmail* dot *com*. To avoid gett
 
 ## Understanding Visage.FR results and behavior
 
-### Inputs to Visage.FR
+### What inputs does Visage.FR ask for?
 
-Visage.FR requires 2 images as input. one is the source image: the image that contains one or more known faces (known to you or your application). The second image is the target image: it contains one or more unknown faces, i.e., faces that you want to recognize. Visage.FR attempts to match faces in the known image with faces in the unknown image.
+Visage.FR requires 2 images as input. One is the source image: the image that contains one or more known faces (known to you or your application). The second image is the target image: it contains one or more unknown faces, i.e., faces that you want to recognize. Once you send these to Visage.FR, it attempts to match faces in the known image with faces in the unknown image.
+
+### How do I send the inputs to Visage.FR?
+
+If you are not a programmer, the web application is a very quick and easy way to try Visage.FR. Any one can use it without any knowledge of programming! A quick tutorial on the webapp is available [here](https://github.com/sushrutmair/visagefrservice/blob/main/webapphowto.md).
+
+If you are a programmer, look at the section below titled, 'For developers wanting to integrate Visage.FR into their own applications'.
+
+### What are Visage.FR's outputs?
+
+Visage.FR returns a result for each request you send to it. The result indicated: a) whether or not a match was found, and, b) the locations in both images for the matches. The locations are just co-ordinates in the images where the matching faces have been found. You can use the locations to crop or build a bounding box in the images to visually show matches.
+
+### Does Visage.FR impose any limitations on the inputs?
+
+Visage.FR strives to be as reasonable as possible in restricting inputs. Here they are:
+* You must provide exactly 2 images as input. No more, no less.
+* Supported image types are: JPEG/JPG, PNG and BMP. Other types should work but have not been tested.
+* Each image cannot be more than 3 MB in size. In other words, as long as both images are < 3 MB in size, Visage.FR will process them.
+* Visage.FR works best when the faces in the images are frontal, clear and not too low-res. If the image is very large, it needs proportionally larger face sizes in it.
+
 
 ## For developers wanting to integrate Visage.FR into their own applications
 
