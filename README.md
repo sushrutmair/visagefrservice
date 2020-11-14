@@ -46,12 +46,17 @@ Visage.FR is highly scalable. The limits above are artificial and to remove them
 
 ### I want to take Visage.FR for a spin but I am not a programmer. Can you help?
 
-Yes, of course. Visage.FR ships with a simple integrated web application that non programmers (or programmers wanting to sample it) can use. [Here](https://github.com/sushrutmair/visagefrservice/blob/main/webapphowto.md) is an easy pictorial guide that shows you how to use that web application. In fact, we usually suggest first timers to use the web app irrespective of whether they are programmers or not.
+Yes, of course. Visage.FR ships with a simple integrated web application that non programmers (or programmers wanting to sample it) can use. [Here](https://github.com/sushrutmair/visagefrservice/blob/main/webapphowto.md) is an easy pictorial guide that shows you how to use that web application. In fact, we usually suggest first timers to use the web app irrespective of whether they are programmers or not. Plese do go through the section titled 'Understanding Visage.FR results and behavior' before using it.
 
 ### I have a custom request for an application on top of Visage.FR. Can you  help?
 
 Of course. Just drop us a line at *visagefr* at *gmail* dot *com*. To avoid getting signed up by bots, the email id is somewhat obfuscated. Should be easy to reconstruct it. Or you can also hit up the creator of Visage.FR at LinkedIn [here](https://in.linkedin.com/in/sushrut-mair-3769b62). Please do include brief details about yourself and a brief note on how you want to use Visage.FR.
 
+## Understanding Visage.FR results and behavior
+
+### Inputs to Visage.FR
+
+Visage.FR requires 2 images as input. one is the source image: the image that contains one or more known faces (known to you or your application). The second image is the target image: it contains one or more unknown faces, i.e., faces that you want to recognize. Visage.FR attempts to match faces in the known image with faces in the unknown image.
 
 ## For developers wanting to integrate Visage.FR into their own applications
 
@@ -73,4 +78,4 @@ Yes, as long as the system supports calling a HTTPS based cloud service (which m
 
 ### Can Visage.FR recognize faces in a video?
 
-Yes. For this to work, you would need to grab the frames of interest from the video (it can also be a live streaming video). Frames of interest are frames that containe faces you want to recognize. Send those frames (as images) to Visage.FR and you are done!
+Yes. For this to work, you would need to grab the frames of interest from the video (it can also be a live streaming video). Frames of interest are frames that contain faces you want to recognize. Send those frames (as images) to Visage.FR and you are done!
