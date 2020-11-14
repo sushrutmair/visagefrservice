@@ -6,7 +6,7 @@
 
 2. You should see the page as shown below. Click on POST (red arrow).
 
-![Step 1](https://raw.githubusercontent.com/sushrutmair/visagefrservice/main/logo_small.png)
+![Step 1](https://github.com/sushrutmair/visagefrservice/blob/main/webappflow/2.jpg)
 
 3. The POST area will now expand and you should see more details. Click on 'Try it Out'.
 4. You should see the below. The 'Add item' button is of interest to us. This button allows us to upload the images to the Visage.FR service.
