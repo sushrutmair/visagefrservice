@@ -10,7 +10,11 @@ A few screenshots have been also shown to give a better idea of the structure of
 
 1. One match is found:
 
+![One match](https://github.com/sushrutmair/visagefrservice/blob/main/errscreens/200_1_match.jpg)
+
 2. More than one match is found:
+
+![Multiple matches](https://github.com/sushrutmair/visagefrservice/blob/main/errscreens/200_more1_match.jpg)
 
 3. No match is found:
 
