@@ -57,8 +57,8 @@ public class App {
             Integer delay1 = 1;
             ConcurrentVfrClients vfrClient1 = new ConcurrentVfrClients();
             if(vfrClient1.prepareClients(srvUrl, 
-                "../testimages/bp1.jpg", 
-                "../testimages/bp2.jpg", 
+                "testimages/bp1.jpg", 
+                "testimages/bp2.jpg", 
                 reqConc1, delay1)) {
                     vfrClient1.postRequests();
                 }
@@ -72,8 +72,8 @@ public class App {
             Integer delay2 = 5;
             ConcurrentVfrClients vfrClient2 = new ConcurrentVfrClients();
             if(vfrClient2.prepareClients(srvUrl, 
-                "../testimages/ag1.jpg", 
-                "../testimages/ag5.jpg", 
+                "testimages/ag1.jpg", 
+                "testimages/ag5.jpg", 
                 reqConc2, delay2)) {
                     vfrClient2.postRequests();
                 }
@@ -87,8 +87,8 @@ public class App {
             Integer delay3 = 7;
             ConcurrentVfrClients vfrClient3 = new ConcurrentVfrClients();
             if(vfrClient3.prepareClients(srvUrl, 
-                "../testimages/unkn1.jpg", 
-                "../testimages/n1.jpg", 
+                "testimages/u2.jpg", 
+                "testimages/ws3.jpg", 
                 reqConc3, delay3)) {
                     vfrClient3.postRequests();
                 }
@@ -113,8 +113,8 @@ public class App {
         for(int x=0; x<clients;x++){
             ConcurrentVfrClients vfrClient3 = new ConcurrentVfrClients();
             if(vfrClient3.prepareClients(srvUrl, 
-                "../testimages/jc-cw1.jpg", 
-                "../testimages/cw1.jpeg", 
+                "testimages/jc-cw1.jpg", 
+                "testimages/cw1.jpeg", 
                 reqConc3, delay3)) {
                     vfrClient3.postRequests();
                     Thread.sleep(3000);
@@ -138,8 +138,8 @@ public class App {
         for(int x=0; x<clients;x++){
             ConcurrentVfrClients vfrClient3 = new ConcurrentVfrClients();
             if(vfrClient3.prepareClients(srvUrl, 
-                "../testimages/sd1.jpg", 
-                "../testimages/nm-sd1.jpg", 
+                "testimages/sd1.jpg", 
+                "testimages/nm-sd1.jpg", 
                 reqConc3, delay3)) {
                     vfrClient3.postRequests();
                     Thread.sleep(750);
