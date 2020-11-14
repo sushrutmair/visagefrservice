@@ -6,7 +6,7 @@ Visage.FR's results would have the following HTTP Response code:
 
 A few screenshots have been also shown to give a better idea of the structure of the Response body.
 
-#### Response body under various conditions for HTTP Response 200:
+### Response body under various conditions for HTTP Response 200:
 
 1. One match is found:
 
@@ -18,7 +18,7 @@ A few screenshots have been also shown to give a better idea of the structure of
 
 
 
-#### Response body under various conditions for HTTP Response 400, 500:
+### Response body under various conditions for HTTP Response 400, 500:
 
 1. Number of uploaded images was not 2 (HTTP response is 400)
 
