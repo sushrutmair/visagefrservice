@@ -44,8 +44,8 @@ def main():
     locations of the matching faces.
     '''
     svcUrl = "https://vfr050-yfc6eivsqq-ue.a.run.app/visagefr/v1.0/fr" #cloud service
-    srcImg = "../testimages/ws2.jpg"
-    tgtImg = "../testimages/ws3.jpg"
+    srcImg = "testimages/ws2.jpg"
+    tgtImg = "testimages/ws3.jpg"
 
     process_facerecog(svcUrl,srcImg,tgtImg)
 

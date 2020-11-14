@@ -26,8 +26,8 @@ namespace csharp
             locations of the matching faces.
             */
             String svcUrl = "https://vfr050-yfc6eivsqq-ue.a.run.app/visagefr/v1.0/fr";
-            String srcImg = "..\\testimages\\ws2.jpg";
-            String tgtImg = "..\\testimages\\ws3.jpg";
+            String srcImg = "testimages\\ws2.jpg";
+            String tgtImg = "testimages\\ws3.jpg";
 
             //actual method that POSTs to the Visage.FR service
             System.Threading.Tasks.Task task = processFaceRecogAsync(svcUrl, srcImg, tgtImg);
