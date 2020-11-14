@@ -18,3 +18,5 @@ In case you do not want to program clients right away, you can use one of the fo
 * clients/__cURL__ -  A few examples showing how to use cURL to invoke the Visage.FR face recognition functionality.
 
 * the web app - See [this](https://github.com/sushrutmair/visagefrservice/blob/main/webapphowto.md)
+
+If you are looking for the Open API 3.0 spec, get it [here](https://vfr050-yfc6eivsqq-ue.a.run.app/visagefr/v1.0/openapi.json). A note here: Not all of the custom results are spec'd out yet (primarily for HTTP results 200 and 500).
