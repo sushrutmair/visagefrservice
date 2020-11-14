@@ -48,6 +48,10 @@ Visage.FR is highly scalable. The limits above are artificial and to remove them
 
 Yes, of course. Visage.FR ships with a simple integrated web application that non programmers (or programmers wanting to sample it) can use. [Here](https://github.com/sushrutmair/visagefrservice/blob/main/webapphowto.md) is an easy pictorial guide that shows you how to use that web application. In fact, we usually suggest first timers to use the web app irrespective of whether they are programmers or not. Plese do go through the section titled 'Understanding Visage.FR results and behavior' before using it.
 
+### I want to try on images other than my own. Would you have any?
+
+Yes. Just look into our [test images folder](https://github.com/sushrutmair/visagefrservice/tree/main/clients/testimages) and you can use any from within that!
+
 ### I have a custom request for an application on top of Visage.FR. Can you  help?
 
 Of course. Just drop us a line at *visagefr* at *gmail* dot *com*. To avoid getting signed up by bots, the email id is somewhat obfuscated. Should be easy to reconstruct it. Or you can also hit up the creator of Visage.FR at LinkedIn [here](https://in.linkedin.com/in/sushrut-mair-3769b62). Please do include brief details about yourself and a brief note on how you want to use Visage.FR.
