@@ -60,6 +60,8 @@ Of course. Just drop us a line at *visagefr* at *gmail* dot *com*. To avoid gett
 
 Let us know! File a bug by using the 'Issues' tab above.
 
+---
+
 ## Understanding Visage.FR results and behavior
 
 ### What inputs does Visage.FR ask for?
@@ -86,6 +88,7 @@ Visage.FR strives to be as reasonable as possible in restricting inputs. Here th
 * Each image cannot be more than 3 MB in size. In other words, Visage.FR allows each image to be upto 3 MB in size.
 * Visage.FR works best when the faces in the images are frontal, clear and not too low-res. If the image is very large, it needs proportionally larger face sizes in it.
 
+---
 
 ## For developers wanting to integrate Visage.FR into their own applications
 
