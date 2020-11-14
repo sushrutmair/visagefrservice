@@ -15,7 +15,7 @@
 
 ## About Visage.FR
 
-Visage.FR is a publically available cloud service that allows you to build face recognition into any type of application. It guarantees privacy of your data by a) not requesting uneeded information and b) maintaining ephemeral environments for each request and destroying them as soon as the request has been processed.
+Visage.FR is a publically available cloud service that allows you to build face recognition into any type of application. It guarantees privacy of your data by a) not requesting uneeded information, b) not asking for any PII (Personally Identifiable Information) like names or even labels, and c) maintaining ephemeral environments for each request and destroying them as soon as the request has been processed.
 
 ### Sounds interesting. Tell me more about how you guarantee privacy?
 
@@ -42,6 +42,10 @@ Thought you would never ask. We have a bunch of working client applications avai
 ### Can I call Visage.FR from any application?
 
 Yes. You just need to confirm to the contract (the REST API). The best way to do this is use one of the existing client code. Feel free to copy / fork that code and use it in your applications (even commercial)!
+
+### Can I call Visage.FR from a mobile application?
+
+Yes, of course. While currently we have not shared a mobile client, the currently available clients are useful to understand how to call the Visage.FR service. If you are looking for the simplest client, try the Python client code.
 
 ### Can I call Visage.FR from within an embedded system?
 
