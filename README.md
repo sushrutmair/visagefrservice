@@ -101,4 +101,4 @@ Yes, as long as the system supports calling a HTTPS based cloud service (which m
 
 ### Can Visage.FR recognize faces in a video?
 
-Yes. For this to work, you would need to grab the frames of interest from the video (it can also be a live streaming video). Frames of interest are frames that contain faces you want to recognize. Send those frames (as images) to Visage.FR and you are done!
+Yes. For this to work, you would need to grab the frames from the video (it can also be a live streaming video). Send those frames (as images) to Visage.FR and you are done! When matches are found, Visage.FR also gives you the location of matched faces in the video. You can use something like OpenCV or PIL to draw bounding boxes on those faces in the video stream!
