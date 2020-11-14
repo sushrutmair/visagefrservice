@@ -17,14 +17,6 @@
 
 Visage.FR is a publically available cloud service that allows you to build face recognition into any type of application. It guarantees privacy of your data by a) not requesting uneeded information, b) not asking for any PII (Personally Identifiable Information) like names or even labels, and c) maintaining ephemeral environments for each request and destroying them as soon as the request has been processed.
 
-### Sounds interesting. Tell me more about how you guarantee privacy?
-
-By way of input all Visage.FR needs are two images. Other face recognition services typically store the images and derived data on their servers (at least for sometime if not permanently). Visage.FR does nothing of this sort. As soon as you receive the service's response, you can be assured that all your data in the service has been destroyed. Visage.FR has been designed from the ground up with privacy as one of the primary driving goals.
-
-### Cool. Does this affect the quality and responsiveness of Visage.FR?
-
-No. Visage.FR is very fast and strives to beat, or be at par with other free as well as commercial face recognition solutions in the market.
-
 ### What is face recognition? Why should I be excited about it?
 
 Face recognition is the ability to match a human face to various unknown faces. It opens up a plethora of use cases:
@@ -36,14 +28,29 @@ Face recognition is the ability to match a human face to various unknown faces. 
  - Recognize faces in a video (livestream or from a file)!
  - ... and many more! Use your imagination!
 
+### Sounds interesting. Tell me more about how you guarantee privacy?
+
+By way of input all Visage.FR needs are two images. Other face recognition services typically store the images and derived data on their servers (at least for sometime if not permanently). Visage.FR does nothing of this sort. As soon as you receive the service's response, you can be assured that all your data in the service has been destroyed. Visage.FR has been designed from the ground up with privacy as one of the primary driving goals.
+
+### Cool. Does this affect the quality and responsiveness of Visage.FR?
+
+No. Visage.FR is very fast and strives to beat, or be at par with other free as well as commercial face recognition solutions in the market.
 
 ### This all sounds too good to be true. What's the catch?
 
 There's a catch. Yep. And here it is: Since we give away the service for free, we need to ensure that our cloud operational costs are kept as low as possible. How does this affect you? In two ways: 1) At times, you might see a slower response in the first request you make (~8-10 sec). This is because the service is kept dormant until it starts seeing requests and the first request bears the brunt of that cold start. Subsequent requests are blazingly fast. 2) The service scalability is artificially throttled (somewhat). You might get a HTTP response that says something like, "Service capacity consumed for now. Please try in a few hours." The service is smart enough to auto-scale its capacity (driven by a goal to lower costs) and after sometime your requests are again served.
 
+### Are the limits above baked into Visage.FR? What if my use case requires more scale than what is available?
+
+Visage.FR is highly scalable. The limits above are artificial and to remove them is just a configuration on the cloud service. Please get in touch with us at *visagefr* at *gmail* dot *com*. To avoid getting signed up by bots, the email id is somewhat obfuscated. Should be easy to reconstruct it. Or you can also hit up the creator of Visage.FR at LinkedIn [here](https://in.linkedin.com/in/sushrut-mair-3769b62). Please do include brief details about yourself and a brief note on how you want to use Visage.FR.
+
 ### I want to take Visage.FR for a spin but I am not a programmer. Can you help?
 
 Yes, of course. Visage.FR ships with a simple integrated web application that non programmers (or programmers wanting to sample it) can use. [Here](https://github.com/sushrutmair/visagefrservice/blob/main/webapphowto.md) is an easy pictorial guide that shows you how to use that web application. In fact, we usually suggest first timers to use the web app irrespective of whether they are programmers or not.
+
+### I have a custom request for an application on top of Visage.FR. Can you  help?
+
+Of course. Just drop us a line at *visagefr* at *gmail* dot *com*. To avoid getting signed up by bots, the email id is somewhat obfuscated. Should be easy to reconstruct it. Or you can also hit up the creator of Visage.FR at LinkedIn [here](https://in.linkedin.com/in/sushrut-mair-3769b62). Please do include brief details about yourself and a brief note on how you want to use Visage.FR.
 
 
 ## For developers wanting to integrate Visage.FR into their own applications
