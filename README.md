@@ -87,6 +87,8 @@ Visage.FR strives to be as reasonable as possible in restricting inputs. Here th
 
 Thought you would never ask. We have a bunch of working client applications available across multiple programming languages. In addition, we also have provided cURL command lines to call it. Just head over to the [clients](https://github.com/sushrutmair/visagefrservice/tree/main/clients) folder and you are good to go! We currently have a Java, C# and Python client that work seamlessly with the Visage.FR service!
 
+Visage.FR is also OpenAPI 3.0 compliant. The README in the client folder has more details on where to get the spec.
+
 ### Can I call Visage.FR from any application?
 
 Yes. You just need to confirm to the contract (the REST API). The best way to do this is use one of the existing client code. Feel free to copy / fork that code and use it in your applications (even commercial)!
