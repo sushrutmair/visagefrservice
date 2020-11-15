@@ -1,8 +1,18 @@
 # Visage.FR Clients
 
-#### NOTE: The code below assumes a path to the testimages locally (see testimages dir one level up). You might need to modify it, especially when running it from inside an IDE.
 
 ![Visage.FR Logo](https://raw.githubusercontent.com/sushrutmair/visagefrservice/main/logo_small.png)
+
+
+##### Notes (Read this first!):
+* The code below assumes a path to the testimages locally (see testimages dir in this same 'clients' folder). You might need to modify it, especially when running it from inside an IDE.
+* In some screen shots, the lower part of the webpage has been cropped so we can focus on the relevant portions for each step.
+* You must provide exactly 2 images as input. No more, no less.
+* Supported image types are: JPEG/JPG, PNG and BMP. Other types should work but have not been tested.
+* Each image cannot be more than 3 MB in size. In other words, Visage.FR allows a single image to be upto 3 MB in size.
+* Visage.FR works best when the faces in the images are frontal, clear and not too low-res. If the image is very large, it needs proportionally larger face sizes in it.
+* If you do not have images handy, [here](https://github.com/sushrutmair/visagefrservice/tree/main/clients/testimages) are some to help out!
+
 
 This repo hosts clients of the Visage.FR service:
 * clients/java/__javaclient__ - A __JAVA__ client. This is the most full featured client (compared to the others) using which you can explore the service as well as build automation tests. Needs JDK/JRE 11 installed (openjdk 11.0.9 2020-10-20). App.java is the main file and it calls the ConcurrentVfrClients class which is just a wrapper to handle concurrent requests. If you do not need all this, look at VisageFR_v1_client.java file - this is the class that actually posts to the Visage.FR service.
