@@ -5,11 +5,20 @@
 
 
 
-### Privacy First. Fast and Easy Face Recognition for any application! 
+#### Privacy First. Fast and Easy Face Recognition for any application! 
 
-### No sign-up / registration needed!
+#### No sign-up / registration needed!
 
-### And it's !! FREE !!
+#### And it's !! FREE !!
+
+---
+
+### How to navigate the information presented here:
+* First Timer? Read this page from start till end! (takes 10 min tops)
+* Been here already? Looking to know more?
+  * Not a Programmer? Check the question below titled - 'I want to take Visage.FR for a spin but I am not a programmer. Can you help?'
+  * Programmer? Check the section below titled - 'For developers wanting to integrate Visage.FR into their own applications'
+  * Want to get in touch with us? See question below titled - 'I have a custom request for an application on top of Visage.FR. Can you  help?'
 
 ---
 
