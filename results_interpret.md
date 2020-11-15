@@ -56,7 +56,7 @@ A few screenshots have been also shown to give a better idea of the structure of
 | "-1025" | "Resource allocation error. Please try after some time."|
 
 
-4. Unsupported image type was uploaded
+4. Something went wrong in reading images inside the service
 
 | error | errstring |
 |------ | ----------|
